@@ -8,7 +8,7 @@ if(isset($_GET["page"])) {
     $page = "inloggen";
 }
 if($page) {
-    include("page/" . $page . ".php");
+    include("pages/" . $page . ".php");
 }
 
 ?>
